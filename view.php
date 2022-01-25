@@ -8,6 +8,7 @@ $result = $conn->query($sql); //menjalankan query $sql
 //menampilkan data
 if($result->num_rows > 0){
     //menampilkan data dalam format tabel
+    echo "<a href='input.php'>+Tambah Data</a>"; 
     echo "<table border=1>";
     echo "<tr>";
     echo "<th>ID</th> <th>Name</th>";
